@@ -52,7 +52,7 @@ p#texto{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
-    padding: 10px 90px;
+    margin: 10px 25% 20px;
 }
 
 p.botao1{

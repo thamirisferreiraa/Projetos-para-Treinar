@@ -22,13 +22,11 @@
     
     h1{
         position: absolute; 
-        top: 20%;
-        left: 49%;
+        top: 17%;
+        left: 51%;
         overflow: hidden;
-        font-size: 1.4em;
+        font-size: 1.28em;
     }
-
-
 
     p#texto{
         position: absolute; 
@@ -36,6 +34,7 @@
         left: 43%;
         overflow: hidden;
         font-size: 1em;
+        margin: 5px 15% 10px;
     }
 
     p.botao1{
@@ -110,7 +109,7 @@
         left: 43%;
         overflow: hidden;
         font-size: 1em;
-        padding: 10px 60px;
+        margin: 10px 17% 15px;
     }
 
     p.botao1{
