@@ -23,18 +23,20 @@
     h1{
         position: absolute; 
         top: 17%;
-        left: 51%;
+        left: 53%;
         overflow: hidden;
         font-size: 1.28em;
+        text-align: center;
     }
 
     p#texto{
         position: absolute; 
-        top: 32%;
-        left: 43%;
+        top: 35%;
+        left: 48%;
         overflow: hidden;
         font-size: 1em;
-        margin: 5px 15% 10px;
+        margin: 0px 5% 10px;
+        text-align: center;
     }
 
     p.botao1{
@@ -81,6 +83,7 @@
         overflow: hidden;
         font-size: 45px;
         color: #636381;
+        text-align: center;
     }
 
     div#imagem{
@@ -106,10 +109,10 @@
     p#texto{
         position: absolute; 
         top: 37%;
-        left: 43%;
+        left: 47%;
         overflow: hidden;
         font-size: 1em;
-        margin: 10px 17% 15px;
+        margin: 10px 9% 15px;
     }
 
     p.botao1{
@@ -117,7 +120,7 @@
         top: 56%;
         left: 48.8%;
         overflow: hidden;
-        margin: 10px 9%;
+        margin: 10px 7%;
     }
 
     p.botao2{
@@ -125,7 +128,7 @@
         top: 67%;
         left: 47.5%;
         overflow: hidden;
-        margin: 10px 9%;
+        margin: 10px 7%;
     }
     
     input{
