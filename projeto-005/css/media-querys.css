@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 600px){ /*telas pequenas*/
+
+    div.menu{
+        width: 100%;
+    }
+
+    div.menu > ul > li > a{
+        font-size: 0.8em;
+    }
+
+    div.menu > ul > button.doacoes{
+        font-size: 0.8em;
+        height: 30px;
+    }
+
+    div.imagem{
+        width: 100%;
+    }
+
+    div.conteudo{
+        width: 420px;
+        left: 50%;
+    }
+
+    div.conteudo > h1{
+        font-size: 1.5em;
+    }
+
+    div.conteudo > button.beautiful-button{
+        font-size: 1em;
+       padding: 12px 24px;
+    }
+
+    div.missoes{
+        width: 100%;
+    }
+
+    div.missoes > div.titulo > h2{
+        font-size: 1.8em ;
+    }
+
+    div.missoes > div.missao{
+        gap: 150px;
+    }
+
+    div.titulo-missao{
+        width: 47%;
+        gap: 108px ;
+    }
+
+    div.titulo-missao > p.sus{
+        left: 8%;
+    }
+
+    div.titulo-missao > p.limp{
+        left: 45%;
+    }
+
+    div.titulo-missao > p.sal{
+        left: 77.5%;
+    }
+
+    div.titulo-missao > p{
+        font-size: 0.9em;
+    }
+
+    div.conteudo-missao > p{
+        max-width: 150px;
+    }
+
+    div.conteudo-missao > p.sustentabilidade{
+        top: 52%;
+        left: 6%;
+    }
+
+    div.conteudo-missao > p.limpeza{
+        top: 52%;
+        left: 38.2%;
+    }
+
+    div.conteudo-missao > p.vidas{
+        top: 52%;
+        left: 70%;
+    }
+
+    div.ingles{
+        height: 460px;
+    }
+
+    div.ingles > div.reportagem > img{
+        width: 200px;
+        height: 300px;
+    }
+
+    div.ingles > div.conteudo-ingles > h3{
+        font-size: 1.8em;
+        left: 8%;
+    }
+
+    div.ingles > div.conteudo-ingles > p{
+        font-size: 0.8em;
+        margin-left: -10px;
+    }
+
+    div.ingles > div.conteudo-ingles > button.doc{
+        left: 17%;
+        height: 40px;
+    }
+
+    div.rodape{
+        top: 268%;
+    }
+
+    div.rodape > div.textinho > img{
+        top: 7%;
+        left: 10%;
+        width: 35px;
+        height: 40px;
+    }
+
+    div.rodape > div.textinho{
+        max-width: 30%;
+        font-size: 0.8em;
+    }
+
+    div.rodape > div.mapa-do-site{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    div.conteudo{
+        width: 600px;
+    }
+
+    div.missoes > div.missao{
+        gap: 200px;
+    }
+
+    div.titulo-missao > p.sus{
+        left: 9%;
+    }
+
+    div.titulo-missao > p.limp{
+        left: 45%;
+    }
+
+    div.titulo-missao > p.sal{
+        left: 75.5%;
+    }
+
+    div.conteudo-missao > p{
+        max-width: 200px;
+    }
+
+    div.conteudo-missao > p.sustentabilidade{
+        top: 54%;
+        left: 4%;
+    }
+
+    div.conteudo-missao > p.limpeza{
+        top: 54%;
+        left: 37.2%;
+    }
+
+    div.conteudo-missao > p.vidas{
+        top: 54%;
+        left: 70%;
+    }
+
+    div.ingles > div.reportagem > img{
+        width: 250px;
+        height: 350px;
+    }
+
+    div.ingles > div.conteudo-ingles > h3{
+        top: 19%;
+        left: 9%;
+        font-size: 1.9em;
+    }
+
+    div.ingles > div.conteudo-ingles > p{
+        max-width: 78%;
+        font-size: 1em;
+    }
+
+    div.ingles > div.conteudo-ingles > button.doc{
+        left: 19%;
+    }
+
+    div.rodape > div.textinho > img{
+        width: 50px;
+        height: 55px;
+
+    }
+
+    div.rodape > div.mapa-do-site{
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    div.conteudo{
+        width: 600px;
+    }
+
+    div.missoes > div.missao{
+        gap: 260px;
+    }
+
+    div.titulo-missao > p.sus{
+        left: 8%;
+    }
+
+    div.titulo-missao > p.limp{
+        left: 45%;
+    }
+
+    div.titulo-missao > p.sal{
+        left: 78.5%;
+    }
+
+    div.conteudo-missao > p{
+        max-width: 200px;
+    }
+
+    div.conteudo-missao > p.sustentabilidade{
+        top: 52%;
+        left: 5%;
+    }
+
+    div.conteudo-missao > p.limpeza{
+        top: 52%;
+        left: 39.2%;
+    }
+
+    div.conteudo-missao > p.vidas{
+        top: 52%;
+        left: 73%;
+    }
+
+    div.ingles > div.reportagem > img{
+        width: 300px;
+        height: 400px;
+    }
+
+    div.ingles > div.conteudo-ingles > h3{
+        top: 19%;
+        left: 9%;
+    }
+
+    div.ingles > div.conteudo-ingles > p{
+        max-width: 78%;
+        font-size: 1em;
+    }
+
+    div.ingles > div.conteudo-ingles > button.doc{
+        left: 21%;
+    }
+
+    div.rodape > div.textinho > img{
+        width: 50px;
+        height: 55px;
+
+    }
+
+    div.rodape > div.mapa-do-site{
+        width: 160px;
+    }
+}
