@@ -6,7 +6,7 @@
     width: 100vw;
    }
 
-   main.personagens > div.personagem > img.imagem{
+   main.personagens > div.personagem > img{
     height: 85vh;
    }
 
@@ -39,4 +39,32 @@
    }
 }
 
-@media (max-width: 425px)
+@media (max-width: 425px) {
+   main.personagens > div.personagem-selecionado > img, main.personagens > div.personagem > img{
+       height: auto;
+   }
+
+   div.conteudo > i.logo{
+      width: 170px;
+      height: 75px;
+   }
+
+
+   div.conteudo{
+      top: -30%;
+   }
+
+   div.conteudo > h1.nome-personagem{
+      font-size: 24px;
+   }
+
+   ul.botoes{
+      padding: 20px;
+      top: -20%;
+   }
+
+   ul.botoes > li > button.botao > img{
+      max-width: 50px;
+   }
+   
+}
