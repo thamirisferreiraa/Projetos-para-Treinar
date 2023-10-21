@@ -1,53 +1,12 @@
 @charset "UTF-8";
 
-@media only screen and (max-width: 600px){ /*telas pequenas*/
-
-    div.menu{
-        width: 100%;
-    }
-
-    div.menu > ul > li > a{
-        font-size: 0.8em;
-    }
-
-    div.menu > ul > button.doacoes{
-        font-size: 0.8em;
-        height: 30px;
-    }
-
-    div.imagem{
-        width: 100%;
-    }
-
+@media only screen and (max-width: 900px){
     div.conteudo{
-        width: 420px;
-        left: 50%;
-    }
-
-    div.conteudo > h1{
-        font-size: 1.5em;
-    }
-
-    div.conteudo > button.beautiful-button{
-        font-size: 1em;
-       padding: 12px 24px;
-    }
-
-    div.missoes{
-        width: 100%;
-    }
-
-    div.missoes > div.titulo > h2{
-        font-size: 1.8em ;
+        width: 600px;
     }
 
     div.missoes > div.missao{
-        gap: 150px;
-    }
-
-    div.titulo-missao{
-        width: 47%;
-        gap: 108px ;
+        gap: 260px;
     }
 
     div.titulo-missao > p.sus{
@@ -59,74 +18,55 @@
     }
 
     div.titulo-missao > p.sal{
-        left: 77.5%;
-    }
-
-    div.titulo-missao > p{
-        font-size: 0.9em;
+        left: 78.5%;
     }
 
     div.conteudo-missao > p{
-        max-width: 150px;
+        max-width: 200px;
     }
 
     div.conteudo-missao > p.sustentabilidade{
         top: 52%;
-        left: 6%;
+        left: 5%;
     }
 
     div.conteudo-missao > p.limpeza{
         top: 52%;
-        left: 38.2%;
+        left: 39.2%;
     }
 
     div.conteudo-missao > p.vidas{
         top: 52%;
-        left: 70%;
-    }
-
-    div.ingles{
-        height: 460px;
+        left: 73%;
     }
 
     div.ingles > div.reportagem > img{
-        width: 200px;
-        height: 300px;
+        width: 300px;
+        height: 400px;
     }
 
     div.ingles > div.conteudo-ingles > h3{
-        font-size: 1.8em;
-        left: 8%;
+        top: 19%;
+        left: 9%;
     }
 
     div.ingles > div.conteudo-ingles > p{
-        font-size: 0.8em;
-        margin-left: -10px;
+        max-width: 78%;
+        font-size: 1em;
     }
 
     div.ingles > div.conteudo-ingles > button.doc{
-        left: 17%;
-        height: 40px;
-    }
-
-    div.rodape{
-        top: 268%;
+        left: 21%;
     }
 
     div.rodape > div.textinho > img{
-        top: 7%;
-        left: 10%;
-        width: 35px;
-        height: 40px;
-    }
+        width: 50px;
+        height: 55px;
 
-    div.rodape > div.textinho{
-        max-width: 30%;
-        font-size: 0.8em;
     }
 
     div.rodape > div.mapa-do-site{
-        width: 150px;
+        width: 160px;
     }
 }
 
@@ -199,74 +139,286 @@
     div.rodape > div.mapa-do-site{
         width: 160px;
     }
-}
+}    
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 430px){
+    div.menu{
+        height: 65px;
+    }
+
+    div.menu > ul > img{
+        width: 45px;
+        height: 45px;
+    }
+
+    div.menu > ul > li > a{
+        padding: 24px 0px;
+    }
+
+    div.menu > ul > button.doacoes{
+        height: 23px;
+        width: 53px;
+    }
+
     div.conteudo{
-        width: 600px;
+        width: 270px;
+    }
+
+    div.conteudo > h1{
+        font-size: 1.2em;
+        margin: 10px 0px;
+        padding: 0px 20px;
+    }
+
+    div.conteudo > button.beautiful-button{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    div.missoes{
+        height: 800px;
+    }
+
+    div.missoes > div.titulo > h2{
+        font-size: 1.4em;
     }
 
     div.missoes > div.missao{
-        gap: 260px;
+        flex-direction: column;
+        gap: 170px;
+    }
+
+    div.missoes > div.missao > div.material-symbols-outlined{
+        font-size: 2.8em; 
+    }
+
+    div.missoes > div.missao > div.icons8-polvo-48 > img{
+        width: 40px;
+        height: 40px;
     }
 
     div.titulo-missao > p.sus{
-        left: 8%;
+        top: 30%;
+        left: 36%;
     }
 
     div.titulo-missao > p.limp{
-        left: 45%;
+        top: 56%;
+        left: 42%;
     }
 
     div.titulo-missao > p.sal{
-        left: 78.5%;
+        top: 83%;
+        left: 40.5%;
     }
 
     div.conteudo-missao > p{
-        max-width: 200px;
+        font-size: 0.9em;
     }
 
     div.conteudo-missao > p.sustentabilidade{
-        top: 52%;
-        left: 5%;
+        top: 35%;
+        left: 24.2%;
     }
 
     div.conteudo-missao > p.limpeza{
-        top: 52%;
-        left: 39.2%;
+        top: 63%;
+        left: 24%;
     }
 
     div.conteudo-missao > p.vidas{
-        top: 52%;
-        left: 73%;
+        top: 90%;
+        left: 24%; 
+    }
+
+    div.ingles{
+        top: 260%;
     }
 
     div.ingles > div.reportagem > img{
-        width: 300px;
-        height: 400px;
+        display: none;
     }
 
     div.ingles > div.conteudo-ingles > h3{
-        top: 19%;
-        left: 9%;
+        font-size: 1.5em;
+        top: 8%;
+        left: 24%;
+        text-align: center;
     }
 
     div.ingles > div.conteudo-ingles > p{
-        max-width: 78%;
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     div.ingles > div.conteudo-ingles > button.doc{
-        left: 21%;
+        top: 76%;
+        left: 30%;
+    }
+
+    div.rodape{
+        top: 340%;
     }
 
     div.rodape > div.textinho > img{
-        width: 50px;
-        height: 55px;
+        top: 83%;
+        left: 63%;
 
+        width: 40px;
+        height: 40px;
     }
 
     div.rodape > div.mapa-do-site{
-        width: 160px;
+        width: 115px;
+    }
+
+    div.rodape > div.mapa-do-site > h4{
+        font-size: 0.8em;
+    }
+
+    div.rodape > div.mapa-do-site > ul > li > a{
+        font-size: 0.8em;
     }
 }
+
+@media only screen and (max-width: 600px){ /*telas pequenas*/
+
+    div.menu{
+        height: 70px;
+    }
+
+    div.menu > ul > img{
+        width: 55px;
+        height: 50px;
+    }
+
+    div.menu > ul > li > a{
+        padding: 24px 0px;
+        font-size: 1em;
+    }
+
+    div.menu > ul > button.doacoes{
+        height: 23px;
+        width: 53px;
+    }
+
+    div.conteudo{
+        width: 350px;
+    }
+
+    div.conteudo > h1{
+        font-size: 1.4em;
+        margin: 10px 0px;
+        padding: 0px 20px;
+    }
+
+    div.conteudo > button.beautiful-button{
+        padding: 14px 24px;
+        font-size: 14px;
+    }
+
+    div.missoes{
+        top: 97%;
+    }
+
+    div.missoes > div.titulo > h2{
+        font-size: 1.8em;
+    }
+
+    div.missoes > div.missao{
+        flex-direction: column;
+        gap: 220px;
+    }
+
+    div.missoes > div.missao > div.material-symbols-outlined{
+        font-size: 2.8em; 
+    }
+
+    div.missoes > div.missao > div.icons8-polvo-48 > img{
+        width: 40px;
+        height: 40px;
+    }
+
+    div.titulo-missao > p.sus{
+        top: 39%;
+        left: 38%;
+    }
+
+    div.titulo-missao > p.limp{
+        top: 79%;
+        left: 42%;
+    }
+
+    div.titulo-missao > p.sal{
+        top: 120%;
+        left: 41.5%;
+    }
+
+    div.conteudo-missao > p{
+        font-size: 1.1em;
+    }
+
+    div.conteudo-missao > p.sustentabilidade{
+        top: 48%;
+        left: 32.2%;
+    }
+
+    div.conteudo-missao > p.limpeza{
+        top: 90%;
+        left: 32%;
+    }
+
+    div.conteudo-missao > p.vidas{
+        top: 132%;
+        left: 33%; 
+    }
+
+    div.ingles{
+        top: 265%;
+    }
+
+    div.ingles > div.reportagem > img{
+        display: none;
+    }
+
+    div.ingles > div.conteudo-ingles > h3{
+        font-size: 1.5em;
+        top: 8%;
+        left: 24%;
+        text-align: center;
+    }
+
+    div.ingles > div.conteudo-ingles > p{
+        font-size: 1em;
+        height: 260px;
+    }
+
+    div.ingles > div.conteudo-ingles > button.doc{
+        top: 56%;
+        left: 39%;
+    }
+
+    div.rodape{
+        top: 340%;
+    }
+
+    div.rodape > div.textinho > img{
+        top: 80%;
+        left: 7%;
+
+        width: 40px;
+        height: 40px;
+    }
+
+    div.rodape > div.mapa-do-site{
+        width: 115px;
+    }
+
+    div.rodape > div.mapa-do-site > h4{
+        font-size: 0.8em;
+    }
+
+    div.rodape > div.mapa-do-site > ul > li > a{
+        font-size: 0.8em;
+    }
+}
+    
